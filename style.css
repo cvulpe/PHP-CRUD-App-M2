@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #73e1eb;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+label,
+input,
+p {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h5 {
+    font-size: 2.8;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+.main-head {
+    background: #131c27;
+    color: white;
+    position: sticky;
+    top: 0px;
+    /* z-index: 3; */
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    min-height: 5vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 2 1 10rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 4 1 50rem;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+}
+
+.form-wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    /* background: rgba(19, 28, 39, 0.8); */
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="text"] {
+    width: 300px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type="email"] {
+    width: 300px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.radio {
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.btn {
+    background: #21cc40;
+    color: whitesmoke;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover {
+    background: #0563af;
+    font-weight: bold;
+}
+
+.tabble-wrapper {
+    padding-top: 30px;
+}
+
+#display {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#display td,
+#display th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#display tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#display tr:hover {
+    background-color: rgb(22, 168, 66);
+}
+
+#display th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0563af;
+    color: white;
+}
+
+.update {
+    color: blue;
+}
+
+.delete {
+    color: red;
+}
+
+.alert-success {
+    padding: 10px;
+    background-color: #00cc44;
+    color: white;
+    font-weight: bolder;
+}
+
+.alert-danger {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    font-weight: bolder;
+}
+
+.alert-update {
+    padding: 10px;
+    background-color: #30b6db;
+    color: white;
+    font-weight: bolder;
+}
+
+.query-container {
+    /* min-height: 90vh; */
+    background-color: #fff;
+}
+
+#query-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    transform: translate(-50% -50%);
+}
+
+.criteria {
+    padding: 0 5px;
+}
+
+.category select {
+    background: #0563af;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.criteria::placeholder {
+    color: whitesmoke;
+}
+
+.criteria input[type="text"] {
+
+    background: #0563af;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.btn {
+    background: #338033;
+    color: whitesmoke;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.btn:hover {
+    background: #0563af;
+    font-weight: bold;
+}
